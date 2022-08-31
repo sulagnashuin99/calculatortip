@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel:wght@400;500&family=Cookie&family=Cormorant+SC&family=Noto+Serif:ital@0;1&family=Playfair+Display:ital@0;1&family=Red+Hat+Display:wght@900&family=Ribeye+Marrow&family=Rubik+Burned&family=Sacramento&family=Slabo+27px&display=swap');
+
+
+body {
+    font-family: Roboto;
+    background: url(https://wallpaperaccess.com/full/46429.jpg);
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #04470f;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+  
+  h1 {
+    background: #1F030C;
+    color: #cea57e;;
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-family: 'Aboreto', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Cookie', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Rubik Burned', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Slabo 27px', serif;
+
+  }
+  
+  p {
+    padding-left: 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    color: aquamarine;
+  }
+  
+  form input[type="text"] {
+    width: 90px;
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+  
+  #billamt {
+    font-size: 14px;
+    /*color: #2980b9;*/
+    color: red;
+    background-color: #f7f7f7;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+  }
+  
+  #billamt:focus {
+    background: #fff;
+    border: 3px #552a02;
+    outline: none;
+  }
+  
+  #peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: red;
+    background-color: #f7f7f7;
+    font-size: 14px;
+  }
+  
+  .dollarSign {
+    display: inline;
+  }
+  
+  #serviceQual {
+    padding: 13px 13px 20px 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background:  #1F030C;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  #tipamnt {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  #tipamnt:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #tipamnt sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #tipamnt small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
+footer{
+  text-align: center;
+  color: white;
+  background:  #552a02;
+  padding: 20px;
+  font-weight: 700;
+
+}
+@media only screen and (max-width: 768px) {
+  #container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #04470f;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+}
